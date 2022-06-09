@@ -27,9 +27,12 @@
   - "-:test/support"
   :source:
   - src/**
+  - "../Core/Src/**"
   :support:
   - test/support
-  :include: []
+  :include:
+  - "../Drivers/**"
+  - "../Core/Inc/**"
   :libraries: []
   :test_toolchain_include: []
   :release_toolchain_include: []
